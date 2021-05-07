@@ -1,0 +1,36 @@
+---
+---
+body {
+display: flex;
+margin: 0;
+justify-content: center;
+color: white;
+font-family: "Open Sans", sans-serif;
+background: linear-gradient(
+    124deg,
+    #D52D00 14.28%,
+    #EF7627 14.28%,
+    #EF7627 28.57%,
+    #FF9A56 28.57%,
+    #FF9A56 42.85%,
+    #FFFFFF 42.85%,
+    #FFFFFF 57.14%,
+    #D162A4 57.14%,
+    #D162A4 71.42%,
+    #B55690 71.42%,
+    #B55690 85.71%,
+    #A30262 85.71%
+  );
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height: 100vh;
+}
+
+img {
+	width: 100%;
+}

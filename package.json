@@ -1,0 +1,15 @@
+{
+  "name": "shera.gay",
+  "version": "1.0.0",
+  "description": "A website that hosts a She-Ra placeholder image for internet testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Branden Higby",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.7",
+    "@actions/github": "^4.0.0"
+  }
+}

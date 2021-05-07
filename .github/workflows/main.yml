@@ -1,0 +1,32 @@
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+  push:
+    branches:
+      - main
+      - production
+
+jobs:
+  pic-swap:
+    runs-on: ubuntu-latest
+    name: Daily gay
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Swap gay.jpg
+        id: swap
+        uses: higby/shera.gay@main
+
+      - name: Commit files  # transfer the new html files back into the repository
+        run: |
+          git config --local user.name Workflow
+          git add ./src/gay.jpg
+          git commit -m "daily image"
+
+      - name: Push changes  # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.ETHERIA }}
+          branch: gh-pages
+          force: true

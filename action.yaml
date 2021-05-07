@@ -1,0 +1,6 @@
+name: 'Hourly Gay'
+description: 'Shows a little gay every hour'
+
+runs:
+  using: 'node12'
+  main: 'index.js'

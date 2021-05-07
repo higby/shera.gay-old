@@ -1,0 +1,26 @@
+title: She-Ra is gay
+email: branden@higby.io
+description: >-
+  I made this because She-Ra is gay
+url: "https://shera.gay"
+
+source: src
+
+plugins:
+  - jekyll-tidy
+
+sass:
+    style: expanded
+    sourcemap: never
+    sass_dir: assets/_sass
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
