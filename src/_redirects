@@ -5,3 +5,4 @@
 {{ image.path | remove: ".jpg" | remove: "/assets/img"}} {{ image.path }} 301
 {% endif %}
 {% endfor %}
+/gay /gay.jpg 301
